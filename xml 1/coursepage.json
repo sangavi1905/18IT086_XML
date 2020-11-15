@@ -1,0 +1,50 @@
+[
+   {
+      "name": "Web design",
+      "about": "Designing web and UI",
+      "referenceBookby": "Jennifer Neirdest Robbins",
+      "price": "$200",
+      "duration": "2 months",
+      "availability": "30"
+   },
+   {
+      "name": "Engineering drawing",
+      "about": "Ilustrations and drawing related to engineering",
+      "referenceBookby": "Basant Agarwal",
+      "price": "$150",
+      "duration": "1 month",
+      "availability": "40"
+   },
+   {
+      "name": "Cryptocurrencies",
+      "about": "Study of digital currencies",
+      "referenceBookby": "Paul vigna",
+      "price": "$250",
+      "duration": "3 months",
+      "availability": "23"
+   },
+   {
+      "name": "Blockchain",
+      "about": "Study of impact on future world",
+      "referenceBookby": "Alex Tapscott",
+      "price": "$300",
+      "duration": "5 months",
+      "availability": "40"
+   },
+   {
+      "name": "Artificial Intelligence basics",
+      "about": "A modern approach of AI",
+      "referenceBookby": "Peter Norvig",
+      "price": "$350",
+      "duration": "4 months",
+      "availability": "10"
+   },
+   {
+      "name": "Digital Processing",
+      "about": "complete overview of digital processing",
+      "referenceBookby": "Richard G.Lyons",
+      "price": "$200",
+      "duration": "3 months",
+      "availability": "50"
+   }
+]

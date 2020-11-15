@@ -1,0 +1,44 @@
+[
+   {
+      "name": "Richard Paul",
+      "Expertise": "Designing web and UI",
+      "course-name": "Web design",
+      "university": "Michigan university",
+      "other-courses": "1"
+   },
+   {
+      "name": "Henry Morris",
+      "Expertise": "Cryptography and security",
+      "course-name": "Cryptocurrencies",
+      "university": "NewYork university",
+      "other-courses": "3"
+   },
+   {
+      "name": "Severus Wesely",
+      "Expertise": "Illustrartions and drawings",
+      "course-name": "Engineering Drawing",
+      "university": "University of Texas",
+      "other-courses": "1"
+   },
+   {
+      "name": "George Steven",
+      "Expertise": "AI and ML",
+      "course-name": "Artificial Intelligence Basics",
+      "university": "Michigan university",
+      "other-courses": "2"
+   },
+   {
+      "name": "Ronald Peter",
+      "Expertise": "Digital Signals",
+      "course-name": "Digital Processing",
+      "university": "Stanford University",
+      "other-courses": "2"
+   },
+   {
+      "name": "Steve John",
+      "Expertise": "Blockchain and technology",
+      "course-name": "Blockchain",
+      "university": "University of California",
+      "other-courses": "1"
+   }
+]

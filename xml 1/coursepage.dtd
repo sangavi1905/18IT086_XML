@@ -1,0 +1,10 @@
+
+<?xml version="1.0" en=coding = "UTF-8"?>
+<!ELEMENT coursepage(course+)>
+<!ELEMENT course(name,about,referenceBookby,price,duration,availability)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT about(#PCDATA)>
+<!ELEMENT referenceBookby(#PCDATA)>
+<!ELEMENT price(#PCDATA)>
+<!ELEMENT duration(#PCDATA)>
+<!ELEMENT availability(#PCDATA)>

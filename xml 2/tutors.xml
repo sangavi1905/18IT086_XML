@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style1.xsl" ?>
+<tutors>
+<coursetutors>
+<name>Richard Paul</name>
+<Expertise>Designing web and UI</Expertise>
+<course-name>Web design</course-name>
+<university>Michigan university</university>
+<other-courses>1</other-courses>
+</coursetutors>
+<coursetutors>
+<name>Henry Morris</name>
+<Expertise>Cryptography and security</Expertise>
+<course-name>Cryptocurrencies</course-name>
+<university>NewYork university</university>
+<other-courses>3</other-courses>
+</coursetutors>
+<coursetutors>
+<name>Severus Wesely</name>
+<Expertise>Illustrartions and drawings</Expertise>
+<course-name>Engineering Drawing</course-name>
+<university>University of Texas</university>
+<other-courses>1</other-courses>
+</coursetutors>
+<coursetutors>
+<name>George Steven</name>
+<Expertise>AI and ML</Expertise>
+<course-name>Artificial Intelligence Basics</course-name>
+<university>Michigan university</university>
+<other-courses>2</other-courses>
+</coursetutors>
+<coursetutors>
+<name>Ronald Peter</name>
+<Expertise>Digital Signals</Expertise>
+<course-name>Digital Processing</course-name>
+<university>Stanford University</university>
+<other-courses> 2</other-courses>
+</coursetutors>
+<coursetutors>
+<name>Steve John</name>
+<Expertise>Blockchain and technology</Expertise>
+<course-name>Blockchain</course-name>
+<university>University of California</university>
+<other-courses>1</other-courses>
+</coursetutors>
+</tutors>

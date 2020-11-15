@@ -1,0 +1,37 @@
+<html>
+<body>
+
+<h1 id="demo"></h1>
+
+
+<script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (xhttp.this == 4 && this.status == 200) {
+        myFunction(this);
+      }
+    };
+xhttp.open("GET", "tutors.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+  var parser, xmlDoc,i,txt=" ";
+  parser = new DOMParser();
+  xmlDoc = parser.parseFromString(xml.responseText,"text/xml");
+  var c=xmlDoc.getElementsByTagName("tutors")[0].childElementCount;
+  txt = txt + "<ol>";
+  for(i=0;i<c;i++)
+  {
+      txt = txt+"<li>"+xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue +
+      "<br>"+xmlDoc.getElementsByTagName("Expertise")[0].childNodes[0].nodeValue+
+      "<br>"+xmlDoc.getElementsByTagName("course-name")[0].childNodes[0].nodeValue+
+      "<br>"+xmlDoc.getElementsByTagName("university")[0].childNodes[0].nodeValue+
+      "<br>"+xmlDoc.getElementsByTagName("other-courses")[0].childNodes[0].nodeValue+
+      "</li>";
+  }
+txt = txt +"</ol>";
+}
+</script>
+
+</body>
+</html>

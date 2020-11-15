@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Tutors</h2>
+<h2 id="demo"></h2>
+<h2 id="demo1"></h2>
+
+<script>
+var i,x="";
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var san = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = san.name;
+	for(i in san.course-name){
+		x += san.course-name[i] + "<br>";}
+  }
+  document.getElementById("demo1").innerHTML = x;
+};
+xmlhttp.open("GET", "tutors.json", true);
+xmlhttp.send();
+</script>
+</body>
+</html>

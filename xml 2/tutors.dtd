@@ -1,0 +1,9 @@
+<?xml version="1.0" en=coding = "UTF-8"?>
+<!ELEMENT tutors(coursetutors+)>
+<!ELEMENT course(name,Expertise,course-name,university,other-courses)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT Expertise(#PCDATA)>
+<!ELEMENT course-name(#PCDATA)>
+<!ELEMENT university(#PCDATA)>
+<!ELEMENT other-courses(#PCDATA)>
+

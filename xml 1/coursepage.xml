@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!--<!DOCTYPE fiction SYSTEM "coursepage.dtd">-->
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<coursepage>
+<course>
+<name>Web design</name>
+<about>Designing web and UI</about>
+<referenceBookby>Jennifer Neirdest Robbins</referenceBookby>
+<price>$200</price>
+<duration>2 months</duration>
+<availability>30</availability>
+</course>
+<course>
+<name>Engineering drawing</name>
+<about>Ilustrations and drawing related to engineering</about>
+<referenceBookby>Basant Agarwal</referenceBookby>
+<price>$150</price>
+<duration> 1 month</duration>
+<availability>40</availability>
+</course>
+<course>
+<name>Cryptocurrencies</name>
+<about>Study of digital currencies</about>
+<referenceBookby>Paul vigna</referenceBookby>
+<price>$250</price>
+<duration>3 months</duration>
+<availability>23</availability>
+</course>
+<course>
+<name>Blockchain </name>
+<about>Study of impact on future world</about>
+<referenceBookby>Alex Tapscott</referenceBookby>
+<price>$300</price>
+<duration>5 months</duration>
+<availability>40</availability>
+</course>
+<course>
+<name>Artificial Intelligence basics</name>
+<about>A modern approach of AI</about>
+<referenceBookby>Peter Norvig</referenceBookby>
+<price>$350</price>
+<duration>4 months</duration>
+<availability>10</availability>
+</course>
+<course>
+<name>Digital Processing</name>
+<about>complete overview of digital processing </about>
+<referenceBookby>Richard G.Lyons</referenceBookby>
+<price>$200</price>
+<duration>3 months</duration>
+<availability>50</availability>
+</course>
+
+</coursepage>

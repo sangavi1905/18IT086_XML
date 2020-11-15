@@ -1,0 +1,10 @@
+[
+   {
+      "name": "Web design",
+      "about": "Designing web and UI",
+      "referenceBookby": "Jennifer Neirdest Robbins",
+      "price": "$200",
+      "duration": "2 months",
+      "availability": "30"
+   }, 
+]
